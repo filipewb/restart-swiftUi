@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		794757CE29C2316A00DDF016 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794757CD29C2316A00DDF016 /* OnboardingView.swift */; };
 		794757D029C2318300DDF016 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794757CF29C2318300DDF016 /* HomeView.swift */; };
+		7965C1E129C3C9B100943016 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7965C1E029C3C9B100943016 /* AudioPlayer.swift */; };
 		799DB72A29C1E30700BB508D /* RestartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799DB72929C1E30700BB508D /* RestartApp.swift */; };
 		799DB72C29C1E30700BB508D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799DB72B29C1E30700BB508D /* ContentView.swift */; };
 		799DB72E29C1E30800BB508D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 799DB72D29C1E30800BB508D /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 		794757CC29C230F500DDF016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		794757CD29C2316A00DDF016 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		794757CF29C2318300DDF016 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7965C1E029C3C9B100943016 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 		799DB72629C1E30700BB508D /* Restart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Restart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		799DB72929C1E30700BB508D /* RestartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestartApp.swift; sourceTree = "<group>"; };
 		799DB72B29C1E30700BB508D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 		799DB73E29C1ECCD00BB508D /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				7965C1E029C3C9B100943016 /* AudioPlayer.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				794757D029C2318300DDF016 /* HomeView.swift in Sources */,
 				799DB72C29C1E30700BB508D /* ContentView.swift in Sources */,
 				799DB72A29C1E30700BB508D /* RestartApp.swift in Sources */,
+				7965C1E129C3C9B100943016 /* AudioPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
